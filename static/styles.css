@@ -1,0 +1,142 @@
+html{
+	height: 100%;
+	margin: 0;
+}
+
+
+body{
+
+	font-family: Arial, Helvetica, sans-serif;
+	height: 100%;
+	margin: 0;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('https://hdsportsnews.com/wp-content/uploads/2020/01/1578248592_vivo-ipl-2020-schedule-pdf-download-time-table-match-list-date.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+/* Website Title */
+.container{
+	color: #000000;
+    padding: 20px;
+	display: block;
+	text-align: center;
+}
+
+.container-heading{
+    margin: 0;
+}
+
+.heading_first{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+}
+
+.heading_second{
+	
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: #FFFFFF;
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.description p{
+    font-style: italic;
+    font-size: 12px;
+	font-weight: 100;
+    margin: 0;
+}
+
+/* Prediction Area */
+.prediction-area{
+	position: relative;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px 40px;
+}
+
+
+
+.div2, .results{
+	display: inline-block;
+	width: auto;
+	height: 429px;
+	text-align: center;
+}
+
+
+/* Form */
+.form-input{
+	background-color: #E9E9E9;
+	width: 370px;
+	height: 30px;
+	border-radius: 3px;
+	border: 0;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.align-center{
+	padding: 0 30px;
+}
+.homeButton {
+	background-color:#008000;
+	border-radius: 5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family:'Open Sans;
+	font-size:28px;
+	font-weight:bold;
+	padding:2px 30px;
+	align-items: center;
+	text-decoration:none;
+	transition: 0.5s ease-out;
+}
+/* Predict Button */
+.myButton {
+	background-color:#008000;
+	border-radius: 5px;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:7px 30px;
+	margin-top: 10px;
+	text-decoration:none;
+	transition: 0.5s ease-out;
+}
+
+.myButton:hover{
+	/*background-color: ;
+	color: #000000;*/
+	box-shadow: inset 7px 3px 16px -10px rgba(0,0,0,0.75);
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
+/* Result */
+.results{
+
+	color: #4000ff;
+	font-family: 'Century Gothic', sans-serif;
+	font-weight: 800;
+	font-style: italic;
+	font-size: 30px;
+	b
+    display: inline-block;
+  	line-height: 400px;
+  	text-align: center;
+}
+
+

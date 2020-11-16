@@ -72,6 +72,7 @@ def score():
         
         data = np.array([temp_array])
         my_prediction = int(regressor.predict(sc.transform(data))[0])
+        my_prediction = runs + (20-overs)*my_prediction
         print(my_prediction)
         return render_template('score_result.html', lower_limit = my_prediction-5, upper_limit = my_prediction+5)
 

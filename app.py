@@ -25,7 +25,8 @@ data0 = pd.read_csv('data.csv')
 data1 = pd.read_csv('data1.csv')
 strike_rates = pd.read_csv('strike_rates.csv')
         
-
+items = strike_rates.columns.tolist()
+print(items)
 app = Flask(__name__)
 
 @app.route('/')
@@ -38,7 +39,7 @@ def score():
     temp_array = list()
 
     if request.method == 'GET':
-        return render_template('predict_score.html')
+        return render_template('predict_score.html',items=items)
     if request.method == 'POST':
         
         
@@ -79,7 +80,7 @@ def win():
     temp_array = list()
 
     if request.method == 'GET':
-        return render_template('predict_win.html')
+        return render_template('predict_win.html',items=items)
     
     if request.method == 'POST':
         

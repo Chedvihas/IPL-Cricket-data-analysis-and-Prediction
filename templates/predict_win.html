@@ -13,10 +13,10 @@
     <body>
 
         <!-- Website Title -->
-    	<div class="container">
+        <div class="container">
             <h2 class='container-heading'><span class='heading_first'> </span><span class="heading_second">Win Predictor for Indian Premier League (IPL)</span></h2>
 
-    	</div>
+        </div>
 
         <!-- Prediction Area -->
         <div class="prediction-area">
@@ -29,8 +29,21 @@
                     <input class="form-input" type="text" name="overs" placeholder="Overs eg. 7.2"><br>
                     <input class="form-input" type="text" name="runs" placeholder="Score"><br>
                     <input class="form-input" type="text" name="wickets" placeholder="Wickets"><br>
-                    <input class="form-input" type="text" name="striker" placeholder="Striker"><br>
-                    <input class="form-input" type="text" name="nstriker" placeholder="Non-Striker"><br>
+                    <input list=items type="text" id="searchBar" class="form-input" type="text" name="striker" placeholder="Striker"><br>
+                    <datalist id="items" >
+
+                        {% for item in items %}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </datalist>
+
+                    <input list=items type="text" id="searchBar" class="form-input" type="text" name="nstriker" placeholder="Non-Striker"><br>
+                    <datalist id="items" >
+
+                        {% for item in items %}
+                            <option value="{{item}}">{{item}}</option>
+                        {% endfor %}
+                    </datalist>
                     <input class="form-input" type="text" name="striker_score" placeholder="Striker Score"><br>
                     <input class="form-input" type="text" name="nstriker_score" placeholder="Non-Striker Score"><br>
                     <input class="form-input" type="text" name="runs_in_prev_5" placeholder="Runs scored in previous 3 Overs"><br>

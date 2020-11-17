@@ -74,7 +74,7 @@ def score():
         my_prediction = regressor.predict(sc.transform(data))[0]
         rem_balls = 120 - (6*int(overs) + (overs-int(overs))*10)
         rem_overs = int(rem_balls/6) + 0.1*(rem_balls%6)
-        my_prediction = runs + (rem_overs)*my_prediction
+        my_prediction = int(runs + (rem_overs)*my_prediction)
         print(my_prediction)
         return render_template('score_result.html', lower_limit = my_prediction-5, upper_limit = my_prediction+5)
 

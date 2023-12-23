@@ -66,7 +66,8 @@ strategies against opponents.
 > by side as a group to show a better visualization of all the teams’
 > performances.
 >
-> <img src="media/image3.png" style="width:6.5in;height:1.66667in" />
+<img width="468" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/d09ec850-2f0a-4edb-aeb1-2b810a1f3617">
+
 >
 > Scoring runs at the death can be a game-changer because it can shift
 > the momentum towards the batting team. From the above statistics we
@@ -78,7 +79,9 @@ strategies against opponents.
 > Performance of individual players is important for teams’ success. So
 > we have also plotted bar graphs showing the batsmen with highest
 > strike rate at the death and bowlers who are economical at the
-> death.<img src="media/image4.png" style="width:2.48958in;height:1.59537in" /><img src="media/image5.png" style="width:2.56771in;height:1.66525in" />
+<img width="179" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/32f1b869-bf38-4d6f-9e69-41d0a0f2e19e"> <img width="185" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/09d79e4e-51ae-4283-8050-d2d271c3e255">
+
+
 >
 > Above data shows the strike rates and economies of the players at the
 > death in 2020. Two players from RCB, AB de Villiers and Chris Morris,
@@ -94,7 +97,10 @@ strategies against opponents.
 > matches for the team. We have plotted pie charts for all teams showing
 > the percentage of runs scored by each batsman for his team.
 
-<img src="media/image6.png" style="width:2.58832in;height:2.21354in" /><img src="media/image7.png" style="width:2.80729in;height:2.32994in" />
+<img width="203" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/ce9b7463-9f1a-42a3-994c-a7b289e29605"> <img width="187" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/1aa673f9-322b-48a6-9cb6-dc976eab6178">
+
+
+
 
 > In some teams like MI, six players have scored more than 10% of the
 > team's runs, which means almost all the batsmen have contributed good
@@ -111,7 +117,8 @@ strategies against opponents.
 > overs and death overs. We can observe how the players’ strike rates
 > change as the innings progresses.
 >
-> <img src="media/image8.png" style="width:6.20274in;height:1.63021in" />
+<img width="447" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/b4142d2d-4f9d-4e41-8168-c28689cbebac">
+
 
 ## Leading wicket takers in powerplay<img src="media/image9.png" style="width:2.58333in;height:1.78396in" />
 
@@ -189,7 +196,9 @@ have developed a [<u>web app</u>](https://ipl-predictor1.herokuapp.com/)
 for our score predicting and winning predicting models using flask and
 deployed it on heroku.
 
-<img src="media/image10.png" style="width:3.1875in;height:1.45253in" /><img src="media/image11.png" style="width:3.16473in;height:1.44792in" />
+<img width="230" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/655770b6-9b77-45f4-995b-d31ff1ae204a"> <img width="228" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/dc1360a0-e6ac-4ccf-a90c-9ef4bc329ebc">
+
+
 
 We need to fill in the data of the current situation of the match as
 shown in the above image. To predict the first innings score, we need to
@@ -201,7 +210,8 @@ winner, we need to provide the runs remaining along with the above
 mentioned data. The page displays the winning percentage of the chasing
 team in that situation.
 
-<img src="media/image12.png" style="width:3.16667in;height:1.45981in" /><img src="media/image13.png" style="width:3.16667in;height:1.47233in" />
+<img width="229" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/6bef0dfc-e4d4-4e8f-bed6-7888af34857a"> <img width="228" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/97f71fef-e650-4636-ae02-741e9ed8e935">
+
 
 # Areas of Improvement
 

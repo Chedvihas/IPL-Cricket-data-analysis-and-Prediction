@@ -1,6 +1,5 @@
-## <img src="media/image1.png" style="width:6.4702in;height:0.11458in" alt="horizontal line" /> 
+<img width="468" alt="image" src="https://github.com/Chedvihas/IPL_pred/assets/62206587/958f7888-b589-42ac-b8f4-d84a7d466ae0">
 
-<img src="media/image2.png" style="width:6.5in;height:4.33333in" />
 
 IPL Data Analysis
 
